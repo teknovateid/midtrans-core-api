@@ -17,7 +17,7 @@
     "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
-            "Teknovate\\MidtransCoreApi\\": "src/"
+            "MidtransCoreApi\\": "src/"
         }
     },
     "authors": [
@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Teknovate\\MidtransCoreApi\\MidtransCoreApiServiceProvider"
+                "MidtransCoreApi\\MidtransCoreApiServiceProvider"
             ]
         }
     },
