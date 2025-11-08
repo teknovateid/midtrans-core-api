@@ -1,0 +1,41 @@
+{
+    "name": "teknovate/midtrans-core-api",
+    "description": "A Laravel package for integrating Midtrans Core API functionalities.",
+    "keywords": [
+        "teknovate",
+        "midtrans",
+        "payment",
+        "gateway",
+        "laravel",
+        "package",
+        "composer",
+        "php"
+    ],
+    "homepage": "https://github.com/teknovate/midtrans-core-api",
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Teknovate\\MidtransCoreApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fahril Refiandi",
+            "email": "fahril@teknovate.co.id",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Teknovate\\MidtransCoreApi\\MidtransCoreApiServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2|^8.3|^8.4",
+        "midtrans/midtrans-php": "^2.6"
+    }
+}
